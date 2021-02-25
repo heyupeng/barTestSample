@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0419B83925E782A9004BE53C /* 层级结构-poping.png in Resources */ = {isa = PBXBuildFile; fileRef = 0419B83725E782A9004BE53C /* 层级结构-poping.png */; };
+		0419B84025E78B03004BE53C /* 层级结构-largeTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0419B83E25E78B03004BE53C /* 层级结构-largeTitle.png */; };
+		0419B84125E78B03004BE53C /* 层级结构-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 0419B83F25E78B03004BE53C /* 层级结构-title.png */; };
+		0419B84B25E78F30004BE53C /* 层级结构-translucent-largeTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0419B84A25E78F30004BE53C /* 层级结构-translucent-largeTitle.png */; };
+		0419B85325E79257004BE53C /* 层级结构-translucent-title.png in Resources */ = {isa = PBXBuildFile; fileRef = 0419B85225E79257004BE53C /* 层级结构-translucent-title.png */; };
 		047576AD25CF8BD80020AB67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047576AC25CF8BD80020AB67 /* AppDelegate.m */; };
 		047576B025CF8BD80020AB67 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 047576AF25CF8BD80020AB67 /* SceneDelegate.m */; };
 		047576B325CF8BD80020AB67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047576B225CF8BD80020AB67 /* ViewController.m */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0419B83725E782A9004BE53C /* 层级结构-poping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "层级结构-poping.png"; sourceTree = "<group>"; };
+		0419B83E25E78B03004BE53C /* 层级结构-largeTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "层级结构-largeTitle.png"; sourceTree = "<group>"; };
+		0419B83F25E78B03004BE53C /* 层级结构-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "层级结构-title.png"; sourceTree = "<group>"; };
+		0419B84A25E78F30004BE53C /* 层级结构-translucent-largeTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "层级结构-translucent-largeTitle.png"; sourceTree = "<group>"; };
+		0419B85225E79257004BE53C /* 层级结构-translucent-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "层级结构-translucent-title.png"; sourceTree = "<group>"; };
 		047576A825CF8BD80020AB67 /* BarTestSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarTestSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047576AB25CF8BD80020AB67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		047576AC25CF8BD80020AB67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +91,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0419B83625E7828C004BE53C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0419B85D25E79AF2004BE53C /* Bar UI Hierarchy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0419B85D25E79AF2004BE53C /* Bar UI Hierarchy */ = {
+			isa = PBXGroup;
+			children = (
+				0419B83F25E78B03004BE53C /* 层级结构-title.png */,
+				0419B83E25E78B03004BE53C /* 层级结构-largeTitle.png */,
+				0419B85225E79257004BE53C /* 层级结构-translucent-title.png */,
+				0419B84A25E78F30004BE53C /* 层级结构-translucent-largeTitle.png */,
+				0419B83725E782A9004BE53C /* 层级结构-poping.png */,
+			);
+			path = "Bar UI Hierarchy";
+			sourceTree = "<group>";
+		};
 		0475769F25CF8BD70020AB67 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +145,7 @@
 				047576B925CF8BDC0020AB67 /* LaunchScreen.storyboard */,
 				047576BC25CF8BDC0020AB67 /* Info.plist */,
 				047576BD25CF8BDC0020AB67 /* main.m */,
+				0419B83625E7828C004BE53C /* Resources */,
 			);
 			path = BarTestSample;
 			sourceTree = "<group>";
@@ -240,8 +271,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				047576BB25CF8BDC0020AB67 /* LaunchScreen.storyboard in Resources */,
+				0419B84B25E78F30004BE53C /* 层级结构-translucent-largeTitle.png in Resources */,
+				0419B85325E79257004BE53C /* 层级结构-translucent-title.png in Resources */,
 				047576B825CF8BDC0020AB67 /* Assets.xcassets in Resources */,
 				047576B625CF8BD80020AB67 /* Main.storyboard in Resources */,
+				0419B83925E782A9004BE53C /* 层级结构-poping.png in Resources */,
+				0419B84025E78B03004BE53C /* 层级结构-largeTitle.png in Resources */,
+				0419B84125E78B03004BE53C /* 层级结构-title.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
